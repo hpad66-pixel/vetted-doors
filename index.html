@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<!-- =========================================================
+     EASY-EDIT SETTINGS
+     1) Brand name, tagline, prices, contact email, brokerage:
+        edit window.SITE_CONFIG in the <script> just below.
+        (Text in the page is filled in from it on load; the
+        HTML defaults match so the page also reads fine without JS.)
+     2) Colors & fonts: edit the :root variables in assets/styles.css
+     ========================================================= -->
+<script>
+window.SITE_CONFIG = {
+  brand:        "Vetted Doors",
+  tagline:      "Income properties, screened by an engineer before you offer.",
+  email:        "hardeep@apas.ai",
+  brokerage:    "[Brokerage Name]",
+  priceAlerts:  "$29",   priceAlertsUnit:  "/mo",
+  priceScreen:  "$349",  priceScreenUnit:  "per property",
+  priceValue:   "$750",  priceValueUnit:   "per study",
+  priceBuyer:   "Standard commission", priceBuyerUnit: "via brokerage"
+};
+</script>
+<title>Vetted Doors | Income properties, screened by an engineer before you offer</title>
+<meta name="description" content="A daily feed of underpriced Florida 2–4 unit income properties with honest cap-rate math, plus a licensed engineer's pre-offer screen for hidden-cost problems.">
+<meta name="theme-color" content="#0f2a3d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+  <div class="wrap nav-inner">
+    <a class="logo" href="#top" aria-label="Home">
+      <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="7" fill="var(--ink)"/><path d="M9 25V13l7-5 7 5v12h-5v-6h-4v6z" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linejoin="round"/><path d="M12.5 15.5l2.5 2.5 5-5" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span data-cfg="brand">Vetted Doors</span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#catch">What we catch</a>
+      <a href="#deals">Sample deals</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-sm" href="#join">Join the list</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Florida 2–4 unit income properties</p>
+      <h1 data-cfg="tagline">Income properties, screened by an engineer before you offer.</h1>
+      <p class="lead">A daily feed of underpriced Florida duplexes, triplexes and fourplexes with honest cap-rate math, plus a licensed civil engineer's look at the hidden costs most investors miss.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#join">Join the deal list</a>
+        <a class="btn btn-ghost" href="#catch">See what we catch</a>
+      </div>
+      <ul class="checks" aria-label="What every screen looks at">
+        <li>Unpermitted units</li><li>Flood zone &amp; elevation</li><li>Roof age &amp; wind insurance</li><li>Sewer / septic</li><li>Structure</li><li>Condo milestone inspections</li>
+      </ul>
+    </div>
+    <aside class="calc" aria-label="Example of honest cap-rate math">
+      <div class="calc-head"><span class="mono">CAP-RATE CHECK</span><span class="tag tag-warn">Hollywood duplex</span></div>
+      <dl>
+        <div><dt>Advertised cap rate</dt><dd class="strike">7.7%</dd></div>
+        <div><dt>Landlord-paid water, electric, gas</dt><dd>&minus;$8,462/yr</dd></div>
+        <div><dt>Total expenses incl. vacancy</dt><dd>≈66% of rent</dd></div>
+        <div class="total"><dt>Estimated real cap rate</dt><dd>≈3.6%</dd></div>
+      </dl>
+      <p class="calc-foot">Same listing, honest math. Estimate as of Nov 1, 2026.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- WHAT WE CATCH -->
+<section class="section" id="catch">
+  <div class="wrap">
+    <p class="eyebrow">What we catch</p>
+    <h2>The listing says “cash-flowing.” The details say otherwise.</h2>
+    <p class="sub">Real examples from a single sweep of Florida listings on Nov 1, 2026.</p>
+    <div class="grid3">
+      <article class="card catch">
+        <span class="tag tag-warn">Permits</span>
+        <h3>New Smyrna Beach house + studio, $276K</h3>
+        <p>Priced like a two-unit income property. But the studio may not be a permitted second unit. If it isn't legal, part of the rent, and part of the value, may not exist.</p>
+        <p class="check"><strong>We check:</strong> zoning, permit history, and whether the second unit can be rented legally.</p>
+      </article>
+      <article class="card catch">
+        <span class="tag tag-warn">Unit count</span>
+        <h3>Lake Worth Beach duplex: 9 bedrooms in 1,923 sq ft</h3>
+        <p>That is a lot of bedrooms for the space. Extra rooms are often carved out without permits, and the legal unit and bedroom count drives rent, insurance and resale.</p>
+        <p class="check"><strong>We check:</strong> legal unit count against permits and county records.</p>
+      </article>
+      <article class="card catch">
+        <span class="tag tag-warn">Cap-rate math</span>
+        <h3>Hollywood duplex: “7.7% cap” is closer to 3.6%</h3>
+        <p>The landlord pays water, one electric meter and gas. Once utilities and realistic expenses are counted, the return is less than half of what was advertised.</p>
+        <p class="check"><strong>We check:</strong> who pays what, then redo the cap rate with honest numbers.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SAMPLE DEALS -->
+<section class="section alt" id="deals">
+  <div class="wrap">
+    <p class="eyebrow">Sample deal cards</p>
+    <h2>What lands in your inbox</h2>
+    <p class="sub">The three highest estimated cap rates among multifamily listings in our Nov 1, 2026 sweep, each with an engineer's note.</p>
+    <div class="grid3">
+      <article class="card deal">
+        <div class="deal-top"><h3>New Smyrna Beach</h3><span class="cap"><span class="mono">EST CAP</span>7.1%</span></div>
+        <dl class="facts">
+          <div><dt>Units</dt><dd>2 (house + efficiency)</dd></div>
+          <div><dt>Price</dt><dd>$276,000</dd></div>
+          <div><dt>Est. gross rent</dt><dd>$39,600/yr</dd></div>
+        </dl>
+        <p class="note"><span class="mono">ENGINEER'S NOTE</span>1953 build. The efficiency may not be a permitted second unit; verify zoning before counting its rent. Listing agent has an interest in the property.</p>
+      </article>
+      <article class="card deal">
+        <div class="deal-top"><h3>Vero Beach area</h3><span class="cap"><span class="mono">EST CAP</span>6.9%</span></div>
+        <dl class="facts">
+          <div><dt>Units</dt><dd>2 (duplex, 2×&nbsp;2/1)</dd></div>
+          <div><dt>Price</dt><dd>$250,000</dd></div>
+          <div><dt>Est. gross rent</dt><dd>$36,000/yr</dd></div>
+        </dl>
+        <p class="note"><span class="mono">ENGINEER'S NOTE</span>1966 build with a 2025 roof (good for wind insurance). It is in unincorporated Gifford, not the city or beachside, so compare it to the right market.</p>
+      </article>
+      <article class="card deal">
+        <div class="deal-top"><h3>Lake Worth Beach</h3><span class="cap"><span class="mono">EST CAP</span>5.7%</span></div>
+        <dl class="facts">
+          <div><dt>Units</dt><dd>2 (duplex)</dd></div>
+          <div><dt>Price</dt><dd>$439,900</dd></div>
+          <div><dt>Est. gross rent</dt><dd>$52,800/yr</dd></div>
+        </dl>
+        <p class="note"><span class="mono">ENGINEER'S NOTE</span>1955 build. 9 bed / 6 bath in 1,923 sq ft, so check permits and the legal unit count. The seller says it is $100K under the appraiser's value; verify that.</p>
+      </article>
+    </div>
+    <p class="disclaimer">Estimates as of Nov 1, 2026; not an offer or investment advice. Rents and expenses are estimates or listing claims. Listings may have changed or sold.</p>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section" id="how">
+  <div class="wrap">
+    <p class="eyebrow">How it works</p>
+    <h2>From listing to offer in three steps</h2>
+    <ol class="steps">
+      <li><span class="num">1</span><div><h3>Get the daily feed</h3><p>Underpriced Florida 2–4 unit listings, with rent, expense and cap-rate estimates you can check, and red flags called out.</p></div></li>
+      <li><span class="num">2</span><div><h3>Pick one and request a screen</h3><p>Before you offer, an engineer reviews permits, flood zone and elevation, roof and wind insurance, structure, sewer or septic, and condo milestone issues.</p></div></li>
+      <li><span class="num">3</span><div><h3>Offer with your eyes open</h3><p>Get a plain-English summary of the risks and likely costs, so you can adjust your price, ask for the right inspections, or walk away.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section alt" id="pricing">
+  <div class="wrap">
+    <p class="eyebrow">Introductory pricing (draft)</p>
+    <h2>Pay for what you need</h2>
+    <div class="grid4">
+      <article class="card price featured">
+        <span class="badge">Introductory pricing (draft)</span>
+        <h3>Deal Alerts</h3>
+        <p class="amt"><span data-cfg="priceAlerts">$29</span><small data-cfg="priceAlertsUnit">/mo</small></p>
+        <p>A subscription list of Florida income deals, annotated by an engineer.</p>
+        <ul><li>Daily 2–4 unit picks</li><li>Honest cap-rate math</li><li>Red flags called out</li></ul>
+        <a class="btn btn-block" href="#join" data-interest="Deal Alerts">Join the list</a>
+      </article>
+      <article class="card price">
+        <span class="badge">Introductory pricing (draft)</span>
+        <h3>Pre-Offer Engineering Screen</h3>
+        <p class="amt"><span data-cfg="priceScreen">$349</span><small data-cfg="priceScreenUnit">per property</small></p>
+        <p>A desk review of one property before you offer.</p>
+        <ul><li>Permits &amp; legal unit count</li><li>Flood zone, elevation, roof, wind insurance</li><li>Structure, sewer/septic, condo milestone</li></ul>
+        <a class="btn btn-ghost btn-block" href="#join" data-interest="Pre-Offer Engineering Screen">Request a screen</a>
+      </article>
+      <article class="card price">
+        <span class="badge">Introductory pricing (draft)</span>
+        <h3>Value-Add Finder</h3>
+        <p class="amt"><span data-cfg="priceValue">$750</span><small data-cfg="priceValueUnit">per study</small></p>
+        <p>Finds properties that can legally add units.</p>
+        <ul><li>ADU potential</li><li>Lot splits</li><li>Zoning upside</li></ul>
+        <a class="btn btn-ghost btn-block" href="#join" data-interest="Value-Add Finder">Ask about a study</a>
+      </article>
+      <article class="card price">
+        <span class="badge">Introductory pricing (draft)</span>
+        <h3>Investor Buyer Representation</h3>
+        <p class="amt amt-text"><span data-cfg="priceBuyer">Standard commission</span><small data-cfg="priceBuyerUnit">via brokerage</small></p>
+        <p>Full-service buying, with engineering review included.</p>
+        <ul><li>Search, offer &amp; negotiation</li><li>Engineering review included</li><li>Dual role disclosed in writing</li></ul>
+        <a class="btn btn-ghost btn-block" href="#join" data-interest="Investor Buyer Representation">Talk to Hardeep</a>
+      </article>
+    </div>
+    <p class="disclaimer">These prices are drafts and may change. The engineering screen is a desk review, not a home inspection, and does not replace one.</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="wrap about">
+    <div class="avatar" aria-hidden="true">HA</div>
+    <div>
+      <p class="eyebrow">About</p>
+      <h2>Hardeep Anand, P.E.</h2>
+      <p>Hardeep is a Florida-licensed civil engineer with more than 25 years in water infrastructure. He led a large Miami-Dade water and sewer capital program.</p>
+      <p>He also holds a Florida real estate license and is based in the Fort Lauderdale area. <span data-cfg="brand">Vetted Doors</span> brings both together: an engineer's eye for the hidden costs in a property, and an investor's view of whether the numbers work.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section alt" id="faq">
+  <div class="wrap narrow">
+    <p class="eyebrow">FAQ</p>
+    <h2>Questions investors ask</h2>
+    <details><summary>Is the engineering screen a home inspection?</summary><p>No. It is a desk review by a licensed professional engineer, done before you offer. It looks at records and listing data, such as permits, flood zone, roof age, sewer or septic, and condo milestone status, to flag likely hidden costs. It does not replace a home inspection, wind-mitigation report or other inspections you may need under contract.</p></details>
+    <details><summary>How do you estimate cap rates?</summary><p>We start with listed or estimated market rents, then subtract realistic expenses: taxes, insurance, maintenance, vacancy, management, and any utilities the landlord pays. Every deal card shows its basis so you can check the math. They are estimates, not investment advice.</p></details>
+    <details><summary>Which areas do you cover?</summary><p>Florida 2–4 unit income properties, with a focus on South Florida and the east coast. The feed may include other Florida markets when the numbers stand out.</p></details>
+    <details><summary>Do I have to use you as my agent?</summary><p>No. Deal Alerts, the Pre-Offer Engineering Screen and the Value-Add Finder are available on their own. Engineering fees are billed separately and do not depend on whether you close.</p></details>
+    <details><summary>What if you represent me and also review the property?</summary><p>Any dual role is disclosed to you in writing up front. Real estate services are provided through Hardeep's employing brokerage, and engineering work is billed separately.</p></details>
+    <details><summary>Is this investment advice?</summary><p>No. Deal figures are estimates to help you decide what to look at closely. Do your own due diligence and talk to your lender, insurer, attorney and tax advisor.</p></details>
+  </div>
+</section>
+
+<!-- JOIN -->
+<section class="section join" id="join">
+  <div class="wrap narrow">
+    <p class="eyebrow">Join the deal list</p>
+    <h2>Get the first feed when it launches</h2>
+    <p class="sub">Leave your details and we will be in touch. This opens your email app with a pre-filled message, so nothing is stored on this site.</p>
+    <form id="joinForm" class="form" action="mailto:hardeep@apas.ai" method="post" enctype="text/plain" novalidate>
+      <div class="row2">
+        <label>Name<input name="name" autocomplete="name" required></label>
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+      </div>
+      <label>I'm interested in
+        <select name="interest" id="interest">
+          <option>Deal Alerts</option>
+          <option>Pre-Offer Engineering Screen</option>
+          <option>Value-Add Finder</option>
+          <option>Investor Buyer Representation</option>
+          <option>Just curious</option>
+        </select>
+      </label>
+      <label>Markets or a property you're looking at (optional)<textarea name="message" rows="3"></textarea></label>
+      <button class="btn btn-block" type="submit">Join the deal list</button>
+      <p class="form-alt">Or email <a data-cfg-href="email" href="mailto:hardeep@apas.ai"><span data-cfg="email">hardeep@apas.ai</span></a></p>
+      <p class="form-msg" id="formMsg" role="status"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="logo logo-foot"><span data-cfg="brand">Vetted Doors</span></p>
+    <p class="disclosure"><strong>Disclosure.</strong> Hardeep Anand is a licensed professional engineer and a licensed real estate sales associate in Florida. Any dual role is disclosed in writing. Engineering fees are billed separately and are not contingent on closing. Real estate services are provided through his employing brokerage, <span data-cfg="brokerage">[Brokerage Name]</span>. Engineering screens are desk reviews, not home inspections. Deal figures are estimates, not investment advice.</p>
+    <p class="small">© <span id="yr">2026</span> <span data-cfg="brand">Vetted Doors</span>. Draft site for preview.</p>
+  </div>
+</footer>
+
+<script src="assets/site.js" defer></script>
+</body>
+</html>
